@@ -2,3 +2,15 @@ onlyBuiltDependencies:
   - esbuild
   - sqlite3
   - vue-demi
+
+overrides:
+  '@semantic-release/npm>npm': ^11.21.2
+  semantic-release-pnpm>npm: ^11.21.2
+  vitepress>vite: ^6.4.5
+  sqlite3>tar: ^7.5.21
+  node-gyp@8>tar: ^7.5.21
+  cacache>tar: ^7.5.21
+  http-proxy-agent@4>@tootallnate/once: ^2.0.1
+  external-editor>tmp: ^0.2.7
+  '@vue/language-core>minimatch': ^11.0.8
+  '@microsoft/api-extractor>minimatch': ^11.0.8
